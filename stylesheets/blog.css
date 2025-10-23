@@ -1,0 +1,53 @@
+body{
+    background-image: url('../personal/personalimages/blog.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;}
+.welcome {
+  position: relative; top: 0.5em;
+  height: calc(100vh- 50px);
+  font-size: 1em;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: whitesmoke;
+  border: 10px solid salmon;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;}
+#article1 {
+  background-color: whitesmoke;
+  float: left;
+  left: auto; top: auto;
+  width: 250px;
+  border: 10px solid salmon;
+  padding: 10px;
+  margin: 5px;}
+#article2 {
+  background-color: whitesmoke;
+  float: left;
+  left: 30em; top: auto;
+  width: 250px;
+  border: 10px solid salmon;
+  padding: 10px;
+  margin: 5px;}
+#article3 {
+  background-color: whitesmoke;
+  float: left;
+  left: -40em; top: auto;
+  width: 250px;
+  border: 10px solid salmon;
+  padding: 10px;
+  margin: 5px;}
+h3{
+      font-size: 2.5em;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-weight: bold;}
+p{
+    font-size: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;}
+    .footer {
+      position: fixed;
+      bottom: 0;
+      height: 15%;
+      color:black;
+      font-weight: bold;}

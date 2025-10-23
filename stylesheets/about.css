@@ -1,0 +1,33 @@
+body{
+    background-image: url('../personal/personalimages/camera.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+  overflow: hidden;}
+.content-area{
+    position: absolute; left: 50%; margin-left: -400px; margin-top: 10px; 
+    width: 800px;
+    border: 5px solid;
+    padding: 0em;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: bold;
+    min-height: calc(100vh - 400px);}
+p{
+  font-size: 1em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;}
+h2{
+  font-size: 1.8em;}
+a{
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: lighter;}
+.footer {
+    position: fixed;
+    bottom: 0;
+    height: 15%;
+    color: white;
+    font-weight: bold;}

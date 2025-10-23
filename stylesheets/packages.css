@@ -1,0 +1,29 @@
+body{background-color: darkgray;
+    width: auto;
+    border: 10px solid darkolivegreen;
+    padding: 5px;
+    margin: 5px;}
+a{text-decoration: none;
+color: darkolivegreen;}
+table.center {
+        margin-left:auto; 
+        margin-right:auto;}
+th{
+    border: 2px solid black;
+    background-color: darkolivegreen;
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;}
+td{
+    border: 1.5px solid darkolivegreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-align: center;
+    background-color: whitesmoke;}
+.packages{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2em;}
+p{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;}

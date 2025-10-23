@@ -1,0 +1,60 @@
+/*.button {
+    background-color: whitesmoke;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }*/ /*Normal button with no picture*/
+.photo-button {
+    background-image: url("../button-icons/work-button.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 15px 32px;}
+.enquiry-button {
+      background-image: url("../button-icons/enquiry-button.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      padding: 15px 32px;}
+.package-button {
+        background-image: url("../button-icons/package-button.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding: 14px 30px;}
+.store-button {
+    background-image: url("../button-icons/shop-store.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 15px 32px;}
+.about-button {
+    background-image: url("../button-icons/about-button.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 15px 32px;}
+.blog-button {
+    background-image: url("../button-icons/blog-button.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 15px 32px;}
+.review-button {
+    background-image: url("../button-icons/review-button.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 15px 32px;}
+.home-button {
+      background-image: url("../button-icons/home-button.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      padding: 15px 32px;}

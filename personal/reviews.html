@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Timophy's Reviews</title> 
+<link href='http://fonts.googleapis.com/css?family=Marko+One' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="../stylesheets/buttons.css">
+<link rel="stylesheet" href="../stylesheets/socials.css">
+<link rel="stylesheet" href="../stylesheets/sidepanel.css">
+<link rel="stylesheet" href="../stylesheets/reviews.css">
+<script type="text/javascript">
+function AddText() {
+      if (!document.getElementById) return;
+      var sentence=document.changeform.sentence.value;
+      var node=document.createTextNode(" " + sentence);
+      document.getElementById("paragraph1").appendChild(node);
+      document.changeform.sentence.value="";}
+function openNav() {
+      document.getElementById("mySidebar").style.width = "100px";
+      document.getElementById("main").style.marginLeft = "100px";}
+function closeNav() {
+      document.getElementById("mySidebar").style.width = "0";
+      document.getElementById("main").style.marginLeft= "0";}
+</script>
+</head>
+<body>
+<header>
+        <div id="mySidebar" class="sidebar">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <br>
+          <a href="../business/mywork/work.html" target="_blank" class="photo-button" title="My Work"></a>
+          <a href="../business/packages/packages.html" target="_blank" class="package-button" title="Packages Available"></a>
+          <a href="../business/packages/enquiry.html" target="_blank" class="enquiry-button" title="Get in Touch"></a>
+          <a href="../business/storepage/store.html" target="_blank" class="store-button" title="Store"></a>
+          <a href="aboutpage.html" class="about-button" title="About"></a>
+          <a href="blogpage.html" class="blog-button" title="Blog"></a>
+          <a onclick="window.location.reload();" class="review-button" title="Reviews"></a>
+          <a href="../welcomepage.html" class="home-button" title="Home"></a>
+</div>  
+<button class="openbtn" onclick="openNav()">☰</button> 
+<div class="title">
+<br>
+<a href="../welcomepage.html"><b>Timophy's Photography</b></a>
+</div> 
+</header>
+<h3>Review my work!</h3>
+<h4>This is yo know how I can improve my skills and attitude when it comes to delivery of services. By completing the section under the ratings graph you can let me and others know why you choose to hire me and what I did well. Thanks :)</h4> 
+<span class="heading">User Rating</span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<p>4.7 average based on 235 reviews.</p>
+<hr style="border:3px solid #f1f1f1">
+<div class="row">
+  <div class="side">
+    <div>5 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-5"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>150</div>
+  </div>
+  <div class="side">
+    <div>4 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-4"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>63</div>
+  </div>
+  <div class="side">
+    <div>3 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-3"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>15</div>
+  </div>
+  <div class="side">
+    <div>2 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-2"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>6</div>
+  </div>
+  <div class="side">
+    <div>1 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-1"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>1</div>
+  </div>
+</div>
+<div class="content">
+  <br>
+<h3 id="heading1">Let me know how I can improve!</h3>
+<p>Your input is highly appreciated! Type your review down below and press the 'Add' button.</p>
+<form name="changeform">
+    <input type="text" name="sentence" size="65"/>
+    <button type="button" onclick="AddText();">Add!</button>
+</form>
+<p id="paragraph1"></p>
+<h4 style="text-align: center;">Thank you for taking the time to review my work!</h4>
+</div><footer class="footer">
+    <p>Keep up to date with me by checking my social channels down below. Posting updates weekly!</p>
+    <p><a href="https://www.facebook.com/5T3F4AN/" target="_blank" class="fa fa-facebook"></a>
+    <a href="https://twitter.com/vyperbipteo" target="_blank" class="fa fa-twitter"></a>
+    <a href="https://www.instagram.com/the_eeo/" target="_blank" class="fa fa-instagram"></a></p>
+    <p style="text-align: center;" id="copyright">All content copyright &copy; Timo's Vision 2020</p>
+</footer>
+</html>
